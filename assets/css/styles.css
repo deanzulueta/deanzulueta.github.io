@@ -845,7 +845,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .main-container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 64rem;
+  max-width: 80rem;
   padding: 1rem;
 }
 
@@ -956,29 +956,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.status-badge {
-  position: absolute;
-  top: 1rem;
-  right: 1.75rem;
-  border-radius: 9999px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.125rem;
-  padding-bottom: 0.125rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
+
 
 .download-btn {
   width: 100%;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   font-size: 1rem;
@@ -995,14 +980,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .group:hover .download-btn {
   --tw-bg-opacity: 1;
-  background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
 .download-btn-icon {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-top: 0.75rem;
@@ -1017,7 +1002,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 0.25rem;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(243 232 255 / var(--tw-bg-opacity));
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity));
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.375rem;
@@ -1026,7 +1011,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
   font-weight: 500;
   --tw-text-opacity: 1;
-  color: rgb(168 85 247 / var(--tw-text-opacity));
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 /* About Me Block */
@@ -1045,7 +1030,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mail-link {
   font-weight: 500;
   --tw-text-opacity: 1;
-  color: rgb(168 85 247 / var(--tw-text-opacity));
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .social-link-hover {
@@ -1058,7 +1043,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .social-link-hover:hover {
   --tw-text-opacity: 1;
-  color: rgb(147 51 234 / var(--tw-text-opacity));
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 .menu-link {
@@ -1072,10 +1057,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: inline-flex;
   border-bottom-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgb(168 85 247 / var(--tw-border-opacity));
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
   padding-bottom: 1.25rem;
   --tw-text-opacity: 1;
-  color: rgb(168 85 247 / var(--tw-text-opacity));
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .menu-link-hover {
@@ -1088,9 +1073,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .menu-link-hover:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(147 51 234 / var(--tw-border-opacity));
+  border-color: rgb(37 99 235 / var(--tw-border-opacity));
   --tw-text-opacity: 1;
-  color: rgb(147 51 234 / var(--tw-text-opacity));
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 /* Experience Block */
